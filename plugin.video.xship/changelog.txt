@@ -1,5 +1,7 @@
 xShip Changelog
-"2022.01.12~nightly1"
+
+"2022.01.13"
+- fix anicloud & serienstream
 - edit serienstream
 - edit RH
 - remove xcine
