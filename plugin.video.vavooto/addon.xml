@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.vavooto" name="VAVOO.TO" version="4.0" provider-name="michaz">
+<addon id="plugin.video.vavooto" name="VAVOO.TO" version="4.1" provider-name="michaz">
     <requires>
-        <import addon="script.module.resolveurl"/>
+        <import addon="script.module.urlresolver" optional="true" /> 
+        <import addon="script.module.resolveurl" optional="true" /> 
         <import addon="script.module.requests"/>
-        <import addon="script.module.simplecache"/>
+        <import addon="plugin.program.autocompletion.vavooto" optional="true"/>
+        <import addon="script.module.autocompletion.vavooto" optional="true"/>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.simplejson"/>
         <import addon="inputstream.ffmpegdirect" optional="true" /> 
     </requires>
-    <extension point="xbmc.python.pluginsource" library="lib/main.py">
+    <extension point="xbmc.python.pluginsource" library="lib/video.py">
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
