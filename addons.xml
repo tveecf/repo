@@ -360,7 +360,7 @@ Xship 2021.07.01
     </extension>
 </addon>
 
-<addon id="plugin.video.vavooto" name="VAVOO.TO" version="5.1" provider-name="michaz">
+<addon id="plugin.video.vavooto" name="VAVOO.TO" version="5.2" provider-name="michaz">
     <requires>
         <import addon="script.module.requests"/>
         <import addon="inputstream.ffmpegdirect" optional="true" />
