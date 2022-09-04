@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.bitorbit" name="[COLOR cyan]bitorbit[/COLOR] Repository" provider-name="tveecf" version="1.0.0">
+  <extension point="xbmc.addon.repository" name="bitorbit Repository">
+    <dir>
+      <info compressed="false">https://raw.githubusercontent.com/tveecf/repo/master/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/tveecf/repo/master/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/tveecf/repo/master/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <description lang="en">[COLOR azure]smart media [/COLOR]Repository</description>
+    <license></license>
+    <language></language>
+    <website></website>
+    <news></news>
+    <assets>
+      <icon>icon.png</icon>
+    </assets> 
+  </extension>
+</addon>
