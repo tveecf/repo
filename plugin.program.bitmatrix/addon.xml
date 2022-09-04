@@ -16,7 +16,8 @@
         <description lang="en">[COLOR cyan][B]Bit[/B][/COLOR][COLOR azure]Matrix[/COLOR] offers many maintenance features, selective add-on data saving, and automated build installs.</description>
         <platform>all</platform>
         <reuselanguageinvoker>false</reuselanguageinvoker>
-        <source>https://www.github.com/tveecf/plugin.program.bitmatrix/</source>
+
+   <source>https://raw.githubusercontent.com/tveecf/repo/master/plugin.program.bitmatrix/</source>
         <news>
         </news>
         <assets>
