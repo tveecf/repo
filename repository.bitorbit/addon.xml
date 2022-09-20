@@ -9,7 +9,7 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <description lang="en">[COLOR azure]smart media [/COLOR]Repository</description>
+    <description lang="de">[COLOR azure]smart media [/COLOR]Repository</description>
     <license></license>
     <language></language>
     <website></website>
